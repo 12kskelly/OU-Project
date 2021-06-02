@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* This applys to all of the webpage */
+* {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13pt;
+}
+/*This applys colour and size to the header box */
+.heading {
+height: 80px;
+margin: 0 auto;
+background-color: #00BAC9
+}
+/*This applys colour and size to the header text */
+.heading-text {
+font-size: 17pt;
+	padding-left: 20px;
+text-align: center;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+color: #FFFFFF;
+}
+/*This applys styles to the menu header */
+.nav h1
+{font-size: 17pt;
+text-align:center;
+	padding-left: 37px;
+}
+/*This applys styles to the menu options */
+    .nav {
+		text-align: center;
+		height: 450px;
+		position: relative;
+        box-sizing: border-box;
+		width: 30%;             
+        background-color: #00CFE0;
+		color: #FFFFFF;
+		list-style:none;
+        line-height: 27px;
+
+    }
+.nav li {
+list-style-type: none;
+}
+/*This applys colour and size to the content box */
+.content {
+	position: relative;
+	text-align: center;
+    background-color: #E9E9E9;
+    height: 450px;
+	width: 70%;
+    font-size: 14pt;}
+/*This applys colour and size to the footer */
+.footer {
+color:#FFFFFF;
+background-color:#00BAC9;
+text-align: center;
+padding: 3px;
+font-weight:bold;
+}
+/*This applys floating styles to the navigation and content boxes */
+.nav, .content {
+      float: left; 
+      padding: 20px;
+      box-sizing: border-box;}
+

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OURC Admin Control Panel</title>
+<meta name="keywords" content="OURC, Run Club, Open University Running, admin, admin panel" />
+<meta name="description" content="Admin Panel for OURC" />
+<link href="q2a.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+</head>
+
+<body>
+	<div class = "container">
+<!-- Header -->
+<div class = "heading"><p class = "heading-text">Admin Control Panel Announcements </p></div>
+<!-- Desktop Navigation links -->
+<div class = "nav">
+  <h1 style="">Menu</h1>
+  <ul>
+<li>Home</li>		
+<li>Walk Events</li>
+<li>Other Events</li>
+<li>Members List</li>
+<li>Announcements</li>
+<li>News</li></ul>
+	</div>
+<!-- Content header -->
+	<div class = "content"><div class = "content_header">Send a new announcement</div>
+	
+	<form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post" name="form1">
+
+<!-- Input text Boxes -->
+
+<p>Date to be announced:</p> <input type="date" name="announcement_date" size="30" />
+
+<p>Message:<br />
+
+<textarea name="announcement_message" cols="25" rows="5" placeholder="Type your announcement here..."></textarea></p>
+<p>File attachment:</p>
+<input name="announcement_file" type="file" class="announcement_file">
+
+
+<!-- Submit and reset buttons -->
+<p><input type="submit" name="announcement_submit" value="Send" />
+
+<input type="reset" name="reset" value="Reset" /></p>
+<!-- Closing the form element -->
+		
+		<input type="hidden" name="Session_ID" value="1234abcd-5678-9090-efef" />
+
+    </form></div>
+	
+	 <div id="page-container">
+   <div id="content-wrap">
+     <!-- Footer -->
+   </div>
+ </div>
+<div class = "footer">(C) 2021 OU Running Club Admin Panel</div>
+</div>
+</body>
+</html>
